@@ -1,0 +1,114 @@
+// Bootstrap Color Overrides
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+//
+// Color system
+//
+
+// stylelint-disable;
+$white:    #fff !default;
+$gray-100: #f9fafb !default;
+$gray-200: #e9edef !default;
+$gray-300: #dee3e6 !default;
+$gray-400: #ced5d9 !default;
+$gray-500: #9ca8b0 !default;
+$gray-600: #5b6870 !default;
+$gray-700: #465055 !default;
+$gray-800: #343a3d !default;
+$gray-900: #212426 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$blue:     #0077c3 !default;
+$indigo:   #4444c3 !default;//not used
+$purple:   #663399 !default;//not used
+$pink:     #c04bbb !default;//not used
+$red:      #ad1f65 !default;
+$orange:   #ff9b1a !default;
+$yellow:   #ffd100 !default;
+$green:    #29a592 !default;
+$teal:     #26abbf !default;//not used
+$cyan:     #6e99b4 !default;
+$gold:     #c28e0e !default;
+$slate:     #6e99b4 !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800,
+  "gold":        $gold,
+  "slate":       $slate
+), $colors);
+
+$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $slate !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+), $theme-colors);
+
+// Purdue Colors USED
+$color-black:#000000;
+$color-white:#ffffff;
+$color-campusGold:#c28e0e;
+$color-headlineGold:#98700d; // Only used for h1, h2, h3, h4, h5, h6
+$color-slayterSkyBlue:#6e99b4;
+$color-everTrueBlue:#5b6870;
+$color-fountainRunTeal:#29a592;
+$color-yellowWalk:#ffd100;
+$color-mackeyOrange:#ff9b1a;
+$color-pappysPurple:#ad1f65;
+
+//Purdue Colors NOT USED
+//$color-coalGray:#4d4038;
+//$color-moonDustGray:#baa892;
+//$color-ameliaSkyBlue:#a3d6d7;
+//$color-landGrantGreen:#085c11;
+//$color-rossAdeGreen:#849e2a;
+//$color-celeryBogGreen:#c3be0b;
+//$color-springFestGreen:#e9e45b;
+//$color-oakenBucketBrown:#6b4536;
+//$color-bellTowerBrick:#b46012;
+
+$main-font:    'Archivo Narrow', serif;
+$secondary-font:    'Arial', sans-serif;
