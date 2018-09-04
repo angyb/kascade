@@ -1,0 +1,94 @@
+Skip to content
+Enterprise
+This repository
+Search
+Pull requests
+Issues
+Explore
+ @angy-brooks Sign out
+13
+1 0 Kaplan/pg-design-system
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+pg-design-system/src/scss/typography.scss
+5b37b00  11 days ago
+@angy-brooks angy-brooks tweaks
+     
+69 lines (65 sloc)  1.41 KB
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i');
+
+// Bootstrap Typography Overrides
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+//
+// Font system
+//
+// stylelint-disable;
+
+
+$main-font:    'Archivo Narrow', serif;
+$secondary-font:    'Arial', sans-serif;
+body {    
+    font-family: $secondary-font;  
+    font-weight: 400;
+    font-size: 1rem;
+    line-height:125%;
+    color: $gray-900;
+  }  
+h1,h2,h3,h4,h5,h6 {    
+    font-family: $main-font;
+    font-weight: 600;
+    color: $gray-900;
+    }  
+h1 {
+    font-size: 200%;
+  }  
+h2 {
+    font-size: 175%;
+  }  
+h3 {
+    font-size: 150%;
+  }
+h4 {
+    font-size: 125%;
+  }
+h5 {   
+    font-family: $secondary-font;  
+    font-size: 112.5%;
+  }
+h6 {   
+    font-family: $secondary-font;  
+    font-size: 100%;
+  }
+small {    
+    font-family: $secondary-font;  
+    font-size: .75rem;
+    line-height:120%;
+  }
+a {    
+    color: $blue; //why isn't this using the correct $blue (#0077c3) from MY variable.scss file??? 
+    font-weight: 600;
+  }
+.btn-link {    
+    color: $blue; //why isn't this using the correct $blue (#0077c3) from MY variable.scss file??? 
+    font-weight: 600;
+  }
+ul {
+    line-height: 120%
+    }
+
+.list-unstyled > li{
+    padding-bottom: 8px;
+}
+.bg-secondary {
+    background-color: $gray-900;
+}
+© 2018 GitHub, Inc.
+Help
+Support
+API
+Training
+Shop
+Blog
+About
+GitHub Enterprise 2.13.4
