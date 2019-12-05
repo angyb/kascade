@@ -1,3 +1,7 @@
+/**
+ * google-material-color v1.1.0
+ * https://github.com/danlevan/google-material-color
+ */
 (function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory);
@@ -248,6 +252,8 @@
     '800': '#531c39',
     '900': '#2c1420',
     '1000': '#000000',
+    }, 
+
     },
 
     get: function get(color, shade) {
